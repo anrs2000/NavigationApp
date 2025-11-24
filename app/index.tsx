@@ -6,7 +6,7 @@ import "./global.css";
 const App = () => {
   return (
     <View>
-      <Text>App</Text>
+      <Text className='workSans-black'>App</Text>
     </View>
   )
 }
