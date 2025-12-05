@@ -16,9 +16,7 @@ const CustomButton = ({ children, color = 'primary' }: Props) => {
 
     return (
         <Pressable 
-        // className={`p-3 rounded-md ${btnColor} active:opacity-90`}
-        className={`p-3 rounded-md ${btnColor}`}
-        >
+        className={`p-3 rounded-md ${btnColor} active:opacity-90`}>
             <Text className='text-white text-center'>{children}</Text>
         </Pressable>
     )
@@ -26,3 +24,6 @@ const CustomButton = ({ children, color = 'primary' }: Props) => {
 
 
 export default CustomButton
+
+
+
